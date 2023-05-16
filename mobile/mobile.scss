@@ -1,0 +1,125 @@
+/* footer */
+.footer-container {
+  display: none;
+}
+
+.footer-component {
+  align-items: initial;
+  padding: 32px;
+  background: linear-gradient(180deg, #F5F6F8 0%, rgba(245, 246, 248, 0) 67.54%);
+  color: #333;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 300;
+}
+
+.footer-component .footer-header {
+  margin-bottom: 32px;
+  display: flex;
+}
+
+.footer-component .footer-links {
+  width: 100%;
+  justify-content: start;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1170px;
+  align-items: center;
+}
+
+
+.footer-component .footer-links .link {
+  margin-bottom: 32px;
+  margin-top: 0px;
+  width: 50%;
+  margin-right: 0px;
+}
+
+.footer-component .footer-links .link a {
+  font-size: 14px;
+  color: #535768;
+  transition: 100ms color ease;
+  text-decoration: underline;
+  font-weight: 300;
+}
+
+.footer-component .footer-links .accessibility-statement-link-wrapper {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-right: 32px;
+  padding-top: 8px;
+}
+
+.footer-component .footer-links .accessibility-statement-link-wrapper .accessibilty-statement-link-component {
+  display: flex;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.footer-component .footer-links .accessibility-statement-link-wrapper .accessibilty-statement-link-component .accessibility-link-wrapper {
+  padding-left: 8px;
+}
+
+.footer-component .footer-links .accessibility-statement-link-wrapper .accessibilty-statement-link-component .accessibility-link-wrapper a {
+  transition: 150ms color ease;
+  color: #535768;
+}
+
+.footer-component .monday-logo-wrapper {
+  margin-top: 0px;
+}
+
+.footer-component .contact-info-wrapper {
+  text-align: left;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.footer-component .social-proof-wrapper {
+  margin-top: 32px;
+}
+
+.footer-component .social-proof-wrapper .palette-icons-container {
+  margin-top: 0px;
+  margin: 0 auto;
+  padding: 0;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.footer-component .social-proof-wrapper .palette-icons-container .icons-wrapper {
+  margin-right: 0px !important;
+  width: 200px;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 0px !important;
+}
+
+.footer-component .social-media-icon svg {
+  height: 24px;
+  width: auto;
+}
+
+.footer-component .selected-language {
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  height: 32px;
+  line-height: 32px;
+}
+
+.footer-component .language-picker-component .selected-language .language-label {
+  margin: 0px 8px;
+  max-width: 104px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: color 150ms ease;
+  color: #535768;
+}
