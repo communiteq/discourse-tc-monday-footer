@@ -8,7 +8,8 @@
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
   "assets": {
-    "fg_extCom": "assets/fg_extCom.svg"
+    "fg_extCom": "assets/fg_extCom.svg",
+    "footer_ext_bg": "assets/footer_ext_bg.gif"
   },
   "color_schemes": {
   },
