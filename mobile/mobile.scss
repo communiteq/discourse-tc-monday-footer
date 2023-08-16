@@ -1,11 +1,22 @@
 /* Community Banner */
 
+.extContainer {
+  flex-direction: column;
+}
+.extCLeft, .extCRight {
+  width: 100%;
+  box-sizing: border-box;
+}
+
 .extCLeft {
-  display: none;
+  order: 2;
+  background-position: center -70px;
+  background-size: 569px;
+  background-repeat: no-repeat;
+  padding-bottom: calc(100% - 70px); /* trick to show the bg with the correct aspect ratio */
 }
 
 .extCRight {
-  width: 100%;
   padding: 37px 30px 38px 30px;
 
   hr {
