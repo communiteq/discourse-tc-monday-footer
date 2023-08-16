@@ -38,72 +38,25 @@
     margin-top: 0.7em;
 }
 
+/* Community Banner */
+
 .extCom {
-    display: flex;
-    height: 500px;
+  height: 500px;
+}
 
-}
-.extContainer {
-    display: flex;
-    width: 100%;
-}
-.extCLeft {
-    display: flex;
-    width: 50%;
-    background-image: url($footer_ext_bg);
-    background-size: cover;
-    background-position: center;
-    img {
-        width: 100%;
-        height: auto;
-    }
-}
-.extCRight {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #CFCFF9;
-    width: 50%;
-
-    padding: 4em 6em 6em 4em;
-    
-    .sub-wrap {
-        padding-top: 20px;
-    }
-    
-    h3 {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 600;
-        font-size: 2em;
-        color: #000000;
-    }
-    hr {
-        border-color: #6161FF;
-    }
+.extCRight h3 { /* Make sure "Become part of our community groups" wraps in the right place */
+  max-width: 500px;
+  font-size: 44px;
 }
 
 .extcJ {
-    display: flex;
-    justify-content: space-between;
-    p {
-        font-weight: 500;
-    }
-    a {
-        padding-top: 1.1em;
-        color: #000000;
-        font-weight: 400;
-    }
+  a {
+      padding-top: 1.1em;
+  }
 }
 
-.extCImgcontainer {
-    margin: auto;
-    padding: 0;
-}
-.extCImgcontainer a{
-    background: url($fg_extCom);
-}
+/* End Community Banner */
+
  
   @media (min-width: 768px) {
     .footer-component {

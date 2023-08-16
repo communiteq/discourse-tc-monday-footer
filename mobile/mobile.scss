@@ -1,3 +1,46 @@
+/* Community Banner */
+
+.extCLeft {
+  display: none;
+}
+
+.extCRight {
+  width: 100%;
+  padding: 37px 30px 38px 30px;
+
+  hr {
+    margin: 25px 0px 13px 0px;
+  }
+  h3 {
+    font-size: 35px;
+    letter-spacing: -0.402px;
+    font-weight: 400;
+
+    .break {
+      display: block;
+    }
+  }
+
+  .sub-wrap .extcJ {
+    display: block;
+    a {
+      display: block;
+      font-size: 12.8px;
+      font-weight: 400;
+      line-height: 150%;
+      margin-top: 13px;
+      margin-bottom: 13px;
+    }
+    a.main {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: normal;
+    }
+  }
+}
+
+/* End Community Banner */
+
 /* footer */
 .footer-container {
   display: none;
