@@ -52,3 +52,45 @@
         font-weight: 400;
     }
 }
+
+
+/* CTA banner */
+
+.bigBlueFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #6161FF;
+    h2 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 3em;
+        color: #ffffff;
+        display: none;
+    }
+    a:hover, a:visited {
+        color: #fff;
+    }
+}
+
+.hcLinksbox {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bigBlkBtn {
+    background-color: #000000;
+    border-radius: 90px;
+    padding: 10px 24px;
+    color: #ffffff;
+}
+
+.hcLink {
+    color: #ffffff;
+    margin-left: 1em;
+    margin-top: 0.7em;
+}
