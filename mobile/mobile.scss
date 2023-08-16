@@ -102,7 +102,7 @@
 .footer-component .footer-links .link {
   margin-bottom: 32px;
   margin-top: 0px;
-  width: 50%;
+  width: 100%;
   margin-right: 0px;
 }
 
@@ -114,29 +114,6 @@
   font-weight: 300;
 }
 
-.footer-component .footer-links .accessibility-statement-link-wrapper {
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  margin-right: 32px;
-  padding-top: 8px;
-}
-
-.footer-component .footer-links .accessibility-statement-link-wrapper .accessibilty-statement-link-component {
-  display: flex;
-  font-size: 14px;
-  cursor: pointer;
-}
-
-.footer-component .footer-links .accessibility-statement-link-wrapper .accessibilty-statement-link-component .accessibility-link-wrapper {
-  padding-left: 8px;
-}
-
-.footer-component .footer-links .accessibility-statement-link-wrapper .accessibilty-statement-link-component .accessibility-link-wrapper a {
-  transition: 150ms color ease;
-  color: #535768;
-}
-
 .footer-component .monday-logo-wrapper {
   margin-top: 0px;
 }
@@ -145,6 +122,7 @@
   text-align: left;
   line-height: 24px;
   font-size: 14px;
+  letter-spacing: 0.2px;
 }
 
 .footer-component .social-proof-wrapper {
@@ -175,22 +153,4 @@
   width: auto;
 }
 
-.footer-component .selected-language {
-  opacity: 0;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  user-select: none;
-  height: 32px;
-  line-height: 32px;
-}
 
-.footer-component .language-picker-component .selected-language .language-label {
-  margin: 0px 8px;
-  max-width: 104px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  transition: color 150ms ease;
-  color: #535768;
-}
